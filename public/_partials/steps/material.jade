@@ -1,0 +1,14 @@
+// material circle
+div.column 
+  div.circle#material
+    span.innerTEXT Step 3: MATERIAL
+    br
+    span.innerTEXT#material_text Select your material
+
+  // start of material
+  div#material_select
+    p.control
+      span.select
+        select#selected_material
+          for item in ['- select', 'cedar', 'reclaimed barnwood', 'hickory', 'corrugated steel', 'stainless steel mesh']
+            option= item

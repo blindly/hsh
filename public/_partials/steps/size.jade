@@ -1,0 +1,14 @@
+// size circle
+div.column 
+  div.circle#size
+    span.innerTEXT Step 2: SIZE
+    br
+    span.innerTEXT#size_text Select your size
+
+  // start of size
+  div#size_select
+    p.control
+      span.select
+        select#selected_size
+          for item in ['- select', 'small', 'large', 'custom']
+            option= item

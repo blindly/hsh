@@ -1,0 +1,14 @@
+// finish circle
+div.column 
+  div.circle#finish
+    span.innerTEXT Step 4: FINISH
+    br
+    span.innerTEXT#finish_text Select your finish
+
+  // start of finish
+  div#finish_select
+    p.control
+      span.select
+        select#selected_finish
+          for item in ['- select', 'natural', 'distressed painted white', 'distressed painted black']
+            option= item

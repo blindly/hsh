@@ -1,0 +1,14 @@
+// art circle
+div.column 
+  div.circle#art
+    span.innerTEXT Step 4: FINISH
+    br
+    span.innerTEXT#art_text Select your art
+
+  // start of art
+  div#art_select
+    p.control
+      span.select
+        select#selected_art
+          for item in ['- select', 'none', 'block lettering', 'cursive lettering']
+            option= item

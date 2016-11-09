@@ -1,0 +1,42 @@
+.step {
+  height: 100px;
+  width: 100px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%;
+  background: yellow;
+}
+
+.circle {
+  background: dodgerblue;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  color: black;
+  text-align: center;
+  border: solid 3px white;
+  font-family: Segoe UI Light;
+  box-shadow: 0px 0px 5px black;
+  cursor: pointer;
+}
+
+.circle .innerTEXT {
+  position: relative;
+  top: 50px;
+  left: -2px;
+  color: white;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px black;
+}
+
+.next {
+  position: relative;
+  top: 40px;
+  left: -2px;
+  /* display: none; */
+}
+
+.select {
+  text-align: center;
+}

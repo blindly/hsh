@@ -1,0 +1,13 @@
+doctype 
+html
+  head
+    link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.2.3/css/bulma.min.css")
+    link(rel="stylesheet" href="/assets/css/custom/custom.css")
+    link(rel="stylesheet" href="/assets/css/custom/steps.css")
+    link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css", crossorigin="anonymous", integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN")
+  body
+    != yield
+
+    script(src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js")
+    script(src="assets/js/steps.js")
+    script(src="assets/js/states.js")

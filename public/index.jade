@@ -1,0 +1,18 @@
+div.container
+  include _partials/header.jade
+  include _partials/gallery.jade
+
+  // columns
+  div.columns
+    include _partials/steps/state.jade
+    include _partials/steps/size.jade
+    include _partials/steps/material.jade
+    include _partials/steps/finish.jade
+    include _partials/steps/art.jade
+
+    div.column.is-1
+      div.next
+        a(href='#' disabled)
+          i(class="fa fa-arrow-circle-o-right fa-5x", aria-hidden="true")
+
+  include _partials/footer.jade
